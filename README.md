@@ -120,7 +120,7 @@ A form component for users to submit consultation requests.
 
 A visually appealing hero image component for the top section of the app.
 
-# This is the URL Param Chcek images , Its working on localhost but not on Netlify Link:-
+# This is the URL Param Check images , Its working on localhost but not on Netlify Link:-
 # steps: "http://localhost:{PortNumber}/consultation?city=Delhi " This will override the city written in the form and will show doctors accordingly
 
 ![Screenshot (17)](https://github.com/soumyasri1/fixhealth2.0/assets/31533704/afe91e3a-dd13-4a0b-b2fe-313b81e4e514)
