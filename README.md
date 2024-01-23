@@ -39,7 +39,7 @@ FixHealth is driven by the vision of creating a user-centric platform that goes 
 - [Contributing](#contributing)
 - [License](#license)
 
-# Url param Check->  /consultation?city=Delhi This will override the city written in the form 
+
 
 ## Getting Started
 
@@ -119,6 +119,9 @@ A form component for users to submit consultation requests.
 ### HeroImage Component
 
 A visually appealing hero image component for the top section of the app.
+
+# This is the URL Param Chcek images , Its working on localhost but not on Netlify Link:-
+# steps: "http://localhost:{PortNumber}/consultation?city=Delhi " This will override the city written in the form and will show doctors accordingly
 
 ![Screenshot (17)](https://github.com/soumyasri1/fixhealth2.0/assets/31533704/afe91e3a-dd13-4a0b-b2fe-313b81e4e514)
 
