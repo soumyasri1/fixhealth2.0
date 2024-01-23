@@ -1,70 +1,129 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FixHealth React App
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+FixHealth is a comprehensive web application developed using ReactJS, designed to empower users in managing and enhancing their overall health and well-being. The primary goal of FixHealth is to provide a holistic solution for health monitoring, connecting with healthcare professionals, and offering valuable insights to support users on their wellness journey.
+# Hosting Link- 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About FixHealth
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Purpose
 
-### `npm test`
+FixHealth is driven by the vision of creating a user-centric platform that goes beyond mere health tracking. We believe in fostering a proactive approach to health management by integrating data-driven insights, personalized consultations, and community support.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Key Features
 
-### `npm run build`
+- **Health Monitoring:**
+  - Seamlessly track and monitor various health metrics and vital signs.
+  - Visualize your health data through intuitive dashboards for easy interpretation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Connect with Professionals:**
+  - Browse and connect with certified healthcare professionals for personalized guidance.
+  - Schedule virtual consultations and securely share health data with your chosen professionals.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Personalized Recommendations:**
+  - Receive tailored recommendations based on your health data and goals.
+  - Access a curated repository of health and wellness resources for continuous learning.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Table of Contents
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Components](#components)
+- [Contributing](#contributing)
+- [License](#license)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Url param Check->  /consultation?city=Delhi This will override the city written in the form 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+### Prerequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Before you begin, ensure you have the following software installed on your machine:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Node.js: [Download Node.js](https://nodejs.org/)
+- npm (Node Package Manager): npm comes bundled with Node.js.
 
-### Code Splitting
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repository:
 
-### Analyzing the Bundle Size
+   ```bash
+   git clone https://github.com/your-username/fixhealth-react.git
+2. cd "Folder Name"
+3. npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Usage
+  npm start
+## Folder Structure
 
-### Making a Progressive Web App
+```plaintext
+fixhealth/
+|-- public/
+|   |-- index.html
+|   +-- ...
+|-- src/
+|   |-- components/
+|   |   |-- Home.js
+|   |   |-- Navbar.js
+|   |   |-- Doctor.js
+|   |   |-- DoctorCard.js
+|   |   |-- Testimonial.js
+|   |   |-- CustomReviews.js
+|   |   |-- ConsultationForm.js
+|   |   |-- HeroImage.js
+|   |   +-- ...
+|   |-- App.js
+|   |-- index.js
+|   +-- ...
+|-- .gitignore
+|-- package.json
+|-- README.md
++-- ...
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Components
 
-### Advanced Configuration
+### Home Component
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The main landing page component for the FixHealth app.
 
-### Deployment
+### Navbar Component
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+A navigation bar component for easy navigation within the app.
 
-### `npm run build` fails to minify
+### Doctor Component
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fetches Api to get Doctor's Information
+
+### DoctorCard Component
+
+A  card component to showcase list of doctors.
+
+### Testimonial Component
+
+Displays user testimonials and reviews about the FixHealth app.
+
+### CustomReviews Component
+
+Set of pre-defined User Reviews
+
+### ConsultationForm Component
+
+A form component for users to submit consultation requests.
+
+### HeroImage Component
+
+A visually appealing hero image component for the top section of the app.
+
+
+![Screenshot (17)](https://github.com/soumyasri1/fixhealth2.0/assets/31533704/4121d38a-dc45-47b0-9a83-6b75952938e3)
+
+![Screenshot (18)](https://github.com/soumyasri1/fixhealth2.0/assets/31533704/c69da6d1-68d6-4c0a-b79e-0d9e4cb8810c)
+
+
