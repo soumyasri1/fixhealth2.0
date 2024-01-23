@@ -86,8 +86,7 @@ fixhealth/
 |-- package.json
 |-- README.md
 +-- ...
-
-## Components
+```
 
 ### Home Component
 
@@ -121,9 +120,7 @@ A form component for users to submit consultation requests.
 
 A visually appealing hero image component for the top section of the app.
 
+![Screenshot (17)](https://github.com/soumyasri1/fixhealth2.0/assets/31533704/afe91e3a-dd13-4a0b-b2fe-313b81e4e514)
 
-![Screenshot (17)](https://github.com/soumyasri1/fixhealth2.0/assets/31533704/4121d38a-dc45-47b0-9a83-6b75952938e3)
-
-![Screenshot (18)](https://github.com/soumyasri1/fixhealth2.0/assets/31533704/c69da6d1-68d6-4c0a-b79e-0d9e4cb8810c)
-
+![Screenshot (18)](https://github.com/soumyasri1/fixhealth2.0/assets/31533704/5a634137-1732-4c3b-840c-e7bf3813c2dc)
 
