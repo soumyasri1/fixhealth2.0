@@ -4,7 +4,7 @@
 
 
 FixHealth is a comprehensive web application developed using ReactJS, designed to empower users in managing and enhancing their overall health and well-being. The primary goal of FixHealth is to provide a holistic solution for health monitoring, connecting with healthcare professionals, and offering valuable insights to support users on their wellness journey.
-# Hosting Link- 
+# Hosting Link- https://superb-starship-2ac02f.netlify.app/
 
 ## About FixHealth
 
